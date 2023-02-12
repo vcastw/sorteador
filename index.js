@@ -1,4 +1,4 @@
-const sorteador = () => {
+(const sorteador = () => {
     const valorMinimo = document.getElementById('valorMinimo');
     const valorMaximo = document.getElementById('valorMaximo');
     const resultado = document.querySelector('.resultado');
@@ -15,5 +15,5 @@ const sorteador = () => {
             resultado.innerHTML = sortear(Number(valorMinimo.value), Number(valorMaximo.value));
         };
     });
-};
-sorteador();
+})();
+
