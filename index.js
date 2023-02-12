@@ -1,9 +1,9 @@
-(const sorteador = () => {
+(sorteador = () => {
     const valorMinimo = document.getElementById('valorMinimo');
     const valorMaximo = document.getElementById('valorMaximo');
     const resultado = document.querySelector('.resultado');
 
-    const sortear = (min, max) => {
+    sortear = (min, max) => {
         min = Math.ceil(min);
         max = Math.floor(max);
         return Math.floor(Math.random() * (max - min + 1) + min);
@@ -16,4 +16,3 @@
         };
     });
 })();
-
